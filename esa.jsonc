@@ -1,0 +1,15 @@
+{
+    "name": "ai-recipe-master",
+    "routes": [
+        {
+            "path": "/api/recipe-storage",
+            "function": "recipe-storage"
+        }
+    ],
+    "functions": [
+        {
+            "name": "recipe-storage",
+            "entry": "edge-functions/recipe-storage.js"
+        }
+    ]
+}
